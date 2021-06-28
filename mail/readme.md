@@ -23,15 +23,17 @@ With New outlookMailUsingIE
   .addCc "test_cc@gmail.com" ' Outlook Web版では使用不可のためToに結合
   .addBcc "test_bcc@gmail.com" ' Outlook Web版では使用不可のためToに結合
   
+  .addTemplate "担当者", Range("C2").value
+  
   ' パターン①　一行ごと設定
-  .addBody "〇●"
+  .addBody "{{担当者}}さま"
   .addBody ""
   .addBody "お疲れ様です。"
   .addBody ""
   .addBody "このメールはテストメールです。"
   
   ' パターン②　配列で一括して設定
-  .setBody Array("〇●","","お疲れ様です。","","このメールはテストメールです。")
+  .setBody Array("{{担当者}}さま","","お疲れ様です。","","このメールはテストメールです。")
   
   ' パターン③　セル指定で設定
   .setBody Range("A1:A10").value

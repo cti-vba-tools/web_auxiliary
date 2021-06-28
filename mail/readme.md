@@ -20,8 +20,8 @@ With New outlookMailUsingIE
   ' .setMode Gmail
   .setSubject "件名"
   .addTo "test_to@gmail.com"
-  .addCc "test_cc@gmail.com" ' Outlook Web版では使用不可
-  .addBcc "test_bcc@gmail.com" ' Outlook Web版では使用不可
+  .addCc "test_cc@gmail.com" ' Outlook Web版では使用不可のためToに結合
+  .addBcc "test_bcc@gmail.com" ' Outlook Web版では使用不可のためToに結合
   
   ' パターン①　一行ごと設定
   .addBody "〇●"

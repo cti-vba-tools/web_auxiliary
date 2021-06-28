@@ -38,7 +38,7 @@ With New outlookMailUsingIE
   ' パターン③　セル指定で設定
   .setBody Range("A1:A10").value
   
-  .mailPreview
+  .Preview
 End With
 ```
 

@@ -13,6 +13,7 @@ End With
 ```
 
 ### 最終的に作成したい形
+#### 全機能
 ```
 With New outlookMailUsingIE
   .setMode Default
@@ -38,6 +39,12 @@ With New outlookMailUsingIE
   ' パターン③　セル指定で設定
   .setBody Range("A1:A10").value
   
+  .Preview
+End With
+```
+#### 空メール
+```
+With New outlookMailUsingIE
   .Preview
 End With
 ```

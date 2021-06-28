@@ -41,7 +41,7 @@ End With
 ```
 
 ### 参照サイト
-- [https://qiita.com/yoshi_782/items/a5d0a3f7ef30f5a36962](https://qiita.com/yoshi_782/items/a5d0a3f7ef30f5a36962)
+- [APIを使わずにVBAでGmailを作成](https://qiita.com/yoshi_782/items/a5d0a3f7ef30f5a36962)
 
 ### 注意事項
 『CC』や『BCC』の指定はoutlook側の仕様上できないです！

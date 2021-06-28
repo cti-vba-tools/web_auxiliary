@@ -1,5 +1,8 @@
 # メール補助機能
 
+## 導入方法について
+- [【ExcelVBA入門】クラスモジュールのメリット・使い方を徹底解説！](https://www.sejuku.net/blog/67476)
+
 ## outlookMailUsingIE.clsの使い方
 
 ### Module

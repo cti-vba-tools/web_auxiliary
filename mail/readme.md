@@ -1,4 +1,4 @@
-# web_auxiliary
+# メール補助機能
 
 ## outlookMailUsingIE.clsの使い方
 
